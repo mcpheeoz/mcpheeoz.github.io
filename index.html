@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="styles.css">
     <title>OzRust Store</title>
     <style>
+        html, body {
+            overflow: hidden; /* Make the page unscrollable */
+            margin: 0;
+            padding: 0;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
@@ -46,7 +51,7 @@
             padding: 20px;
             text-align: center;
             border-radius: 5px;
-            width: 300px;
+            width: 250px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
@@ -67,6 +72,13 @@
 
         p {
             font-size: 14px;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff6600; /* Adjust the color as needed */
+            margin: 10px 0;
         }
 
         .purchase-button {
@@ -143,6 +155,7 @@
             <h2>VIP+ 3 Month Package</h2>
             <p>Ranks are automatically applied in-game instantly after purchase.</p>
             <p>Kit Includes: MP5A4, Semi-Auto Pistol, 300x Pistol Bullets, Salvaged Tools, 10x Med Syringe, 5x Bandages, 10x Bean Cans, 10x Cactus Flesh, 1 Large Gift. Every 24 Hours.</p>
+            <p class="price">$10.00</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="AXM35P9TKXRML" />
@@ -158,6 +171,7 @@
             <h2>ELITE 3 Month Package</h2>
             <p>Ranks are automatically applied in-game instantly after purchase.</p>
             <p>Kit Includes: Assault-Rifle, Pump Shotgun, 200x 5.56 Bullets, 50x 12 Gauge Slugs, Salvaged Tools, 10 Med Syringe, 10x Bandages, 10x Bean Cans, 10x Cactus Flesh, 1 Large Gift. Every 24 Hours.</p>
+            <p class="price">$20.00</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="ELITE_HOSTED_BUTTON_ID" />
@@ -173,6 +187,7 @@
             <h2>ELITE+ 3 Month Package</h2>
             <p>Ranks are automatically applied in-game instantly after purchase.</p>
             <p>Kit Includes: Assault-Rifle, Bolt-Action Rifle 4x Scope, SPAS12 Shotgun, 200x 5.56 Bullets, 100x 12 Gauge Incendiary Shell, Chainsaw, Salvaged Tools, 200x Low Grade Fuel, 10x Med Syringe, 10x Bandages, 10x Bean Cans, 10x Cactus Flesh, 1 Large Gift. Every 24 Hours.</p>
+            <p class="price">$25.00</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="ELITE_PLUS_HOSTED_BUTTON_ID" />
@@ -188,6 +203,7 @@
             <h2>ULTIMATE 3 Month Package</h2>
             <p>Ranks are automatically applied in-game instantly after purchase.</p>
             <p>Kit Includes: Assault-Rifle, Bolt-Action Rifle 4x Scope, SPAS12 Shotgun, 200x 5.56 Bullets, 100x 12 Gauge Incendiary Shell, Chainsaw, Salvaged Tools, 200x Low Grade Fuel, 10x Med Syringe, 10x Bandages, 10x Bean Cans, 10x Cactus Flesh, 1 Large Gift. Every 24 Hours.</p>
+            <p class="price">$35.00</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="ULTIMATE_HOSTED_BUTTON_ID" />
